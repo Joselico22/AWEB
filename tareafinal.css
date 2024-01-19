@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: aqua;
+}
+footer{
+    position: relative;
+    width: 100%;
+    bottom: 0%;
+}
+header,footer{
+    background-color: red;
+    color: yellow;
+    border-style: solid;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+}
+div{
+    clear: both;
+    width: 100%;
+}
+.videos{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.MENUS>a{
+    background-color: yellow;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+    float: left;
+    width: 25%;
+}
+.MENUS>a:hover{
+    background-color: red;
+    color: white;
+}
+.MENUS{
+    border:2px solid black;
+    overflow: hidden;
+    border-radius: 10px;
+    border-style: dashed;
+    margin-top: 10px;
+}
+table{
+    background-image:
+    linear-gradient(to bottom,
+    rgba(0, 0, 255, 0.51), white);
+    border-collapse: collapse;
+    border: 3px solid black;
+    margin: auto;
+    width: 70%;
+    margin-top: 50px;
+    caption-side: bottom;
+}
+caption{
+    margin: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-style: italic;
+}
+th{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-transform: uppercase;
+}
+td{
+    text-align: center; 
+    padding: 10px;
+}
+p{
+    box-shadow: -5px 5px 5px black;
+    text-shadow: 2px 2px 4px blue;
+    font-family: "Silkscreen-Bold";
+    font-size: 25px
+}
+@font-face {
+    font-family: "Silkscreen-Bold";
+    src: url(./fuentes/RubikBubbles-Regular.ttf);
+}
+.grid{
+    clear: both;
+    margin-top: 20px;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+}
+.grid img{
+    width: 100%;
+    border: 3px solid white;
+    margin: auto;
+}
+img{
+    transition: all 0.5s ease;
+}
+img:hover{
+    transform: scaleX(0.9);
+}
+video{
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 120%;
+    z-index: -1;
+}
+ol{
+    background-color: aqua;
+    border-style: solid;
+    border-radius: 20px;
+    padding: 10px;
+    background-image: linear-gradient(to left,green,white,black);
+    background-image: radial-gradient(orange,white);
+    margin-right: 600px;
+}
+.ram{
+    list-style-type: none;
+    background-image: url(ram.jpg);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-x: -5px;
+    padding: 0px 0px 0px 25px;
+}
+ul{
+    justify-content: center;
+    background-color: aqua;
+    background-image: linear-gradient(to left,green,white,black);
+    background-image: radial-gradient(orange,white);
+    border-style: solid;
+    border-radius: 20px;
+    padding: 10px;
+    margin-right: 600px;
+
+}
+dl{
+    background-color: aqua;
+    background-image: linear-gradient(to left,green,white,black);
+    background-image: radial-gradient(orange,white);
+    border-style: solid;
+    border-radius: 20px;
+    padding: 10px;
+    margin-right: 600px;
+}
